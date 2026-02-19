@@ -13,12 +13,12 @@
     // ──────────────────────────────────────
     const _cfg = {
         // Encode: btoa(JSON.stringify(['domain1.com','domain2.com']))
-        domains: "WyJwcm9wZXJ0aWxvcmQuY29tIiwibG9jYWxob3N0IiwiMTI3LjAuMC4xIl0=",
-        validKey: "UFJPUC1MT1JELTIwMjQtVjE=",
+        domains: "WyJoZC1kcml2ZS5ibG9nc3BvdC5jb20iXQ==",
+        validKey: "UFJPUC1MT1JELTIwMjYtVjMtMUQ1NjZCOEQ=",
         storageKey: "cGxfbGljZW5zZV92ZXJpZmllZA==",
-        version: "MS4wLjA=",
+        version: "MS4wLjE=",
         // Update endpoint (Base64)
-        updateEndpoint: "aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL3VzZXJuYW1lL3JlcG9AbWFpbi92ZXJzaW9uLmpzb24="
+        updateEndpoint: "aHR0cHM6Ly9yYXdjZG4uZ2l0aGFjay5jb20vYnJic215aWQvanMvcmVmcy9oZWFkcy9tYXN0ZXIvdXBkYXRldmVyc2lvbi5qc29u"
     };
 
     // ──────────────────────────────────────
