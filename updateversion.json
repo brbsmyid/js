@@ -1,6 +1,12 @@
 {
-  "version": "1.0.3",
-  "message": "Update 1.0.3 tersedia! Perbaikan bug dan peningkatan performa.",
-  "url": "https://drive.google.com/file/d/1gwuNjEMYuhQNwsQZKsNHPmJzoqsVhVok/view",
-  "releaseDate": "2026-02-19"
+    "version": "1.0.1",
+    "message": "Update tersedia! Perbaikan bug dan peningkatan performa.",
+    "url": "https://drive.google.com/file/d/1gwuNjEMYuhQNwsQZKsNHPmJzoqsVhVok/view",
+    "releaseDate": "2026-02-20",
+    "changelog": [
+        "✅ Perbaikan sistem lisensi multi-domain",
+        "✅ Optimasi loading speed",
+        "✅ Fix dark mode toggle",
+        "✅ Update CSS variables"
+    ]
 }
