@@ -103,7 +103,7 @@
                         🔑 Status: <strong style="color:#c62828;">INVALID</strong>
                     </div>
                 </div>
-                <a href="https://propertilord.com/license" target="_blank" style="
+                <a href="https://instagram.com/punyakiply_" target="_blank" style="
                     display:inline-block;background:linear-gradient(135deg,#ffd700,#ffc107);
                     color:#000;padding:14px 32px;border-radius:12px;
                     text-decoration:none;font-weight:700;font-size:14px;
