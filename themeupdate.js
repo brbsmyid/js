@@ -13,7 +13,7 @@
     // ──────────────────────────────────────
     const _cfg = {
         // Encode: btoa(JSON.stringify(['domain1.com','domain2.com']))
-        domains: "WyJoZC1kcml2ZS5ibG9nc3BvdC5jb20iXQ==",
+        domains: "WyJoZC1kcml2ZS5ibG9nc3BvdC5jb20iXQ=",
         validKey: "UFJPUC1MT1JELTIwMjYtVjMtMUQ1NjZCOEQ=",
         storageKey: "cGxfbGljZW5zZV92ZXJpZmllZA==",
         version: "MS4wLjE=",
@@ -218,3 +218,31 @@
     } else { _init(); }
 
 })();
+    // ──────────────────────────────────────
+    // 4. THEME MANAGER
+    // ──────────────────────────────────────
+    const Theme = {
+        init() {
+            const saved = localStorage.getItem('theme');
+            const isDark = saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            this.apply(isDark);
+            
+            if(DOM.darkToggle) {
+                DOM.darkToggle.addEventListener('click', () => {
+                    const newState = !DOM.body.classList.contains('dark-theme');
+                    this.apply(newState);
+                    localStorage.setItem('theme', newState ? 'dark' : 'light');
+                });
+            }
+        },
+        apply(isDark) {
+            if(isDark) {
+                DOM.body.classList.add('dark-theme');
+                DOM.html.setAttribute('data-theme', 'dark');
+            } else {
+                DOM.body.classList.remove('dark-theme');
+                DOM.html.setAttribute('data-theme', 'light');
+            }
+            if(DOM.themeIcon) DOM.themeIcon.innerText = isDark ? 'light_mode' : 'dark_mode';
+        }
+    };
