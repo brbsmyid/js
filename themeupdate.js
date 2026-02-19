@@ -18,7 +18,7 @@
         storageKey: "cGxfbGljZW5zZV92ZXJpZmllZA==",
         version: "MS4wLjE=",
         // Update endpoint (Base64)
-        updateEndpoint: "aHR0cHM6Ly9yYXdjZG4uZ2l0aGFjay5jb20vYnJic215aWQvanMvcmVmcy9oZWFkcy9tYXN0ZXIvdXBkYXRldmVyc2lvbi5qc29u"
+        updateEndpoint: "aHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL2JyYnNteWlkL2pzQG1hc3Rlci91cGRhdGV2ZXJzaW9uLmpzb24="
     };
 
     // ──────────────────────────────────────
