@@ -13,7 +13,7 @@
     // ──────────────────────────────────────
     const _cfg = {
         // Encode: btoa(JSON.stringify(['domain1.com','domain2.com']))
-        domains: "WyJoZC1kcml2ZS5ibG9nc3BvdC5jb20iXQ==",
+        domains: "c2RhZGFzZi5jb20=",
         validKey: "UFJPUC1MT1JELTIwMjYtVjMtMUQ1NjZCOEQ=",
         storageKey: "cGxfbGljZW5zZV92ZXJpZmllZA==",
         version: "MS4wLjE=",
